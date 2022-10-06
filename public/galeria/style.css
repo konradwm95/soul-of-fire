@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.images_container {
+    padding: 0 var(--horizontal-margin);
+}
+
+.images_container .container {
+    margin-bottom: 8px;
+}
+
+.images_container img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+    .images_container .container {
+        margin-bottom: 20px;
+    }
+}

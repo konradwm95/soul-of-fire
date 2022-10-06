@@ -1,0 +1,39 @@
+@media (min-width: 480px) {
+    :root {
+        --horizontal-margin: 5vw;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --horizontal-margin: 80px;
+        --footer-img-oversize: -70px;
+    }
+    .overlay_menu {
+        height: auto;
+        width: auto;
+        right: 0;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 12px 0 0 12px;
+    }
+    footer .img_container {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --horizontal-margin: 120px;
+        --vertical-margin: 72px;
+        --footer-img-oversize: -92px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 22px;
+    }
+    footer .img_container {
+        height: 400px;
+    }
+}
